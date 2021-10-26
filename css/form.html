@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+
+
+        <h1>CADASTRO</h1>
+
+
+        <div>
+            <label>
+                <B>Nome</B></label>
+            <input placeholder="Digite seu nome " name="NOME">
+
+        </div>
+
+        <div>
+            <label><b>Email</b></label>
+            <input placeholder="Email" type="email " name="EMAIL">
+        </div>
+
+        <div>
+            <label><b>Idade</b></label>
+            <input placeholder="idade" type="number" minlength="12" name="IDADE">
+        </div>
+
+        <div>
+            <label><b>Data de nascimento</b></label>
+            <input id="date" type="date" name="DATA">
+        </div>
+
+        <label>Aonde voce possui conta:</label>
+
+        <label class="campo">
+            <input type="checkbox" value="op1" name="Instagram"> Instagram
+        </label>
+
+
+        <label class="campo">
+            <input type="checkbox" value="op3" name="twiter"> Twiter
+        </label>
+
+
+        <label class="campo">
+            <input type="checkbox" value="op2" name="facebook"> Facebook
+
+        </label>
+
+
+        <div>
+            <P>Sexo</P>
+            <input type="radio" name="OPCAO" value="op1"> Masculino
+            <input type="radio" name="OPCAO" value="op2"> Feminino
+        </div>
+
+        <div>
+            <label>
+                Cor dos olhos <input type="color" name="COR">
+            </label>
+        </div>
+
+
+        <div>
+            <label>Biografia
+                <br>
+                <textarea name="bio"></textarea>
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <legend>Foto de perfil</legend> <input type="file" accept="image" name="FOTO">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <legend>Link do Facebook</legend> <input type="url" placeholder="Facebook" name="LINK">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <legend>Telefone</legend> <input type="number" placeholder="Telefone" name="TEL">
+            </label>
+        </div>
+
+
+        <div>
+            <label>
+                <b>Senha</b><input type="password" name="SENHA">
+            </label>
+        </div>
+
+        <button type="submit" value="Meu-botao" name="ENVIAR ">Enviar</button>
+        <button type="reset" value="Meu-botao" name="LIMPAR">Limpar</button>
+
+
+    </form>
+</body>
+
+</html>

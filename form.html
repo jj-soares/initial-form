@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <label>
+                <B>Nome</B>
+                <input placeholder="Digite seu nome " name="NOME">
+            </label>
+            <br>
+            <br>
+
+            <label><b>Email</b></label>
+            <input placeholder="Email" type="email " name="EMAIL">
+            <br>
+            <br>
+
+            <label><b>Idade</b></label>
+            <input placeholder="idade" type="number" minlength="12" name="IDADE">
+            <br>
+            <br>
+
+            <label><b>Data de nascimento</b></label>
+            <input id="date" type="date" name="DATA">
+
+            <p>Aonde voce possui conta:</p>
+            <input type="checkbox" name="OPCAO1" value="op1" name="instagram"> Instagram
+            <input type="checkbox" name="OPCAO2" value="op2" name="facebook"> Facebook
+            <input type="checkbox" name="OPCAO3" value="op3" name="twiter"> Twiter
+            <br>
+            <br>
+
+            <P>Sexo</P>
+            <input type="radio" name="OPCAO" value="op1"> Masculino
+            <input type="radio" name="OPCAO" value="op2"> Feminino
+            <br>
+            <br>
+
+            <label>
+
+                Cor dos olhos <input type="color" name="COR">
+            </label>
+            <br>
+            <br>
+
+            <label>Biografia 
+                <br>
+                <textarea name="bio"></textarea>
+            </label>
+
+            <br>
+            <br>
+            <label>
+                <legend>Foto de perfil</legend> <input type="file" accept="image" name="FOTO">
+            </label>
+
+            <br>
+            <br>
+            <label>
+                <legend>Link do Facebook</legend> <input type="url" placeholder="Facebook" name="LINK">
+            </label>
+
+            <br>
+            <br>
+            <label>
+                <legend>Telefone</legend> <input type="number" placeholder="Telefone" name="TEL">
+            </label>
+
+            <br>
+            <br>
+            <label>
+                <b>Senha</b><input type="password" name="SENHA">
+            </label>
+
+            <br>
+            <br>
+            <label>
+                <button type="reset" value="Meu-botao" name="LIMPAR">Limpar</button>
+                <button type="submit" value="Meu-botao" name="ENVIAR ">Enviar</button>
+            </label>
+        </fieldset>
+    </form>
+</body>
+
+</html>
